@@ -1,4 +1,5 @@
-import java.sql.*;
+
+import java.sql.PreparedStatement;
 import java.util.Scanner;
 
 public class CandidateManagementSystem {
