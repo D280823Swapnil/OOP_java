@@ -15,16 +15,71 @@ public class Tester {
 			inputArray[i] = sc.nextLine();
 		}
 
+		
+		for (int i=0;i<5;i++)
+        {
+          System.out.println("---------------------------")
+
+		}
+		
+		
+		
+		
+		
+		for(int i=0;i<5;i++)
+		
+		{
+			System.out.print("Enter the String to check:");
+			inputArray[i]=Sc.nextLine();
+
+
+			for(int)
+			]}
+		
+		
+		
 		for (int i = 0; i < 5; i++) {
 			System.out.println("===================================================");
 			System.out.println("String : " + inputArray[i]);
 			if (isEndVowel(inputArray[i]) == true)
-				System.out.println("String is ending in vowel.\n");
+		
+		
+		
+		
+		
+		
+		
+		
+			System.out.println("");
 			else
-				System.out.println("String is not ending in vowel.\n");
-		}
+				System.out.println("\n");
+		    
+				
+				
+				
+				
+				if is .out.println("String :" +inputArray[i];)
+		
+			}
 
 		sc.close();
+
+
+
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

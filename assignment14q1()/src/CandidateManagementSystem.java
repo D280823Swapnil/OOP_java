@@ -1,7 +1,7 @@
 
 import java.sql.PreparedStatement;
 import java.util.Scanner;
-
+import java.lang.AutoCloseable;
 public class CandidateManagementSystem {
 
     public static void main(String[] args) {
@@ -40,10 +40,10 @@ public class CandidateManagementSystem {
                         deleteCandidate(connection, scanner);
                         break;
                     case 5:
-                        findCandidateById(connection, scanner);
+                        findCandidatesByParty(connection, scanner);
                         break;
                     case 6:
-                        findCandidatesByParty(connection, scanner);
+                        findCandidateById(connection, scanner);
                         break;
                     case 7:
                         displayTotalVotesByParty(connection);
@@ -60,7 +60,32 @@ public class CandidateManagementSystem {
         }
     }
 
-    private static void insertCandidate(Connection connection, Scanner scanner) throws SQLException {
+    private static void deleteCandidate(Object connection, Scanner scanner) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void incrementVotes(Object connection, Scanner scanner) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void displayAllCandidates(Object connection) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void insertCandidate(Object connection, Scanner scanner) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void displayTotalVotesByParty(Object connection) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void insertCandidate(Connection connection, Scanner scanner) throws SQLException {
         System.out.print("Enter candidate name: ");
         String name = scanner.next();
         System.out.print("Enter party name: ");

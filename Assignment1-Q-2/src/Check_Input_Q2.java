@@ -1,9 +1,11 @@
+/*import java.util.Scanner;*/
+
 import java.util.Scanner;
 
-public class Check_Input_Q2 {
-	public static void main(String[] args) {
-		double d1,d2;
-		
+
+public class Check_Input_Q2{
+    public static void main(String[] args) {
+    	double d1,d2;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter 1st Number ");
 		if(sc.hasNextDouble() && !sc.hasNextInt()) {
